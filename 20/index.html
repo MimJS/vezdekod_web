@@ -1,8 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
+<!Doctype html>
+<html>
 
 <head>
-    <meta charset="UTF-8">
     <link href="css/index.css" rel="stylesheet" />
     <title>Web 20</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -15,39 +14,39 @@
         <option>ar</option>
     </select>
     <span id='form_title'>Form title</span>
-    <form action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post">
+    <form>
         <div class="form_block form_block_multiply">
             <div class="form_input">
-                <label for="first-name">first name*:</label>
-                <input id="first-name" name="first-name" required>
+                <span>first name*:</span>
+                <input placeholder="" required='1' ></input>
             </div>
             <div class="form_input">
-                <label for="last-name">last name*:</label>
-                <input id="last-name" name="last-name" required>
-            </div>
-        </div>
-        <div class="form_block">
-            <div class="form_input">
-                <label for="email">email*:</label>
-                <input id="email" name="email" required type='email' >
+                <span>last name*:</span>
+                <input placeholder="" required='1' ></input>
             </div>
         </div>
         <div class="form_block">
             <div class="form_input">
-                <label for="company">company:</label>
-                <input id="company" name="company">
+                <span>email*:</span>
+                <input placeholder="" required='1' type='email' ></input>
             </div>
         </div>
         <div class="form_block">
             <div class="form_input">
-                <label for="city">city*:</label>
-                <input id="city" name="city" required>
+                <span>company:</span>
+                <input placeholder="" ></input>
+            </div>
+        </div>
+        <div class="form_block">
+            <div class="form_input">
+                <span>city*:</span>
+                <input placeholder="" required='1' ></input>
             </div>
         </div>
         <div class="form_block">
             <div class="form_input form_area">
-                <label for="message">message*:</label>
-                <textarea id="message" name="message" required rows="5"></textarea>
+                <span>message*:</span>
+                <textarea placeholder="" required='1' rows="5" ></textarea>
             </div>
         </div>
         <button type='submit'>Send</button>
