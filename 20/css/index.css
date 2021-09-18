@@ -12,7 +12,7 @@
     .form_block_multiply .form_input:first-child {
         margin-bottom: 15px !important;
     }
-    .form_block .form_input span {
+    .form_block .form_input label {
         margin-right: 10px !important;
         width: 100% !important;
     }
@@ -22,7 +22,7 @@
     .form_block_multiply .form_input input {
         width: 100% !important;
     }
-    .form_block .form_input span {
+    .form_block .form_input label {
         margin-bottom: 3px;
     }
 }
@@ -105,7 +105,7 @@ form {
     margin-right: 0px;
 }
 
-.form_block .form_input span {
+.form_block .form_input label {
     margin-right: 20px;
     width: 85px;
 }

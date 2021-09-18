@@ -39,7 +39,7 @@ form {
 }
 
 .form_block {
-    width: 100%; 
+    width: 100%;
     margin-bottom: 15px;
 }
 
@@ -78,7 +78,7 @@ form {
     margin-right: 0px;
 }
 
-.form_block .form_input span {
+.form_block .form_input label {
     margin-right: 20px;
     width: 85px;
 }
